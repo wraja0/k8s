@@ -1,3 +1,4 @@
+apiVersion: kubeadm.k8s.io/v1beta3
 bootstrapTokens:
 - groups:
   - system:bootstrappers:kubeadm:default-node-token
@@ -34,4 +35,5 @@ kubernetesVersion: 1.25.0
 networking:
   dnsDomain: cluster.local
   serviceSubnet: 10.96.0.0/12
+  podSubnet: 10.244.0.0/16
 scheduler: {}
