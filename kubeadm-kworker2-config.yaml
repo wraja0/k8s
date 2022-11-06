@@ -11,7 +11,7 @@ nodeRegistration:
 caCertPath: /etc/kubernetes/pki/ca.crt
 discovery:
   bootstrapToken:
-    token: abcdef.0123456789abcdef
+    token: mrandy.7eab8b1a3ebd6cb2
     apiServerEndpoint: 192.168.99.20:6443
     caCertHashes: 
       - sha256:520874fc9c177a8bb4f1cf9dfe22679cf1ae3ca3306b30f0b50566616585bc08
