@@ -6,7 +6,7 @@ nodeRegistration:
   name: kworker1
   taints: null
   KubeletExtraArgs:
-    node-ip: 192.168.99.20
+    node-ip: 192.168.99.21
   
 caCertPath: /etc/kubernetes/pki/ca.crt
 discovery:
