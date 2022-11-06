@@ -1,0 +1,17 @@
+apiVersion: kubeadm.k8s.io/v1alpha1
+kind: NodeConfiguration
+nodeRegistration:
+  criSocket: unix:///var/run/containerd/containerd.sock
+  imagePullPolicy: IfNotPresent
+  name: master
+  taints: null
+  KubeletExtraArgs:
+    node-ip: 192.168.99.20
+  
+caCertPath: /etc/kubernetes/pki/ca.crt
+discovery:
+  bootstrapToken:
+    token: "abcdef.0123456789abcdef"
+    apiServerEndpoint: "192.168.99.20:6443"
+    caCertHashes: "sha256:520874fc9c177a8bb4f1cf9dfe22679cf1ae3ca3306b30f0b50566616585bc08"
+    
