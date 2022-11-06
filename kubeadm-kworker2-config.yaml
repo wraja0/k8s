@@ -14,4 +14,4 @@ discovery:
     token: mrandy.7eab8b1a3ebd6cb2
     apiServerEndpoint: 192.168.99.20:6443
     caCertHashes: 
-      - sha256:520874fc9c177a8bb4f1cf9dfe22679cf1ae3ca3306b30f0b50566616585bc08
+      - sha256:f4b1fa76044bc0c964e104020b1323010aa88bbfcfab8a3430585a7afa01905c
