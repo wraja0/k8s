@@ -5,7 +5,7 @@ nodeRegistration:
   imagePullPolicy: IfNotPresent
   name: kworker1
   taints: null
-  KubeletExtraArgs:
+  kubeletExtraArgs:
     node-ip: 192.168.99.21
   
 caCertPath: /etc/kubernetes/pki/ca.crt
