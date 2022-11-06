@@ -14,7 +14,7 @@ localAPIEndpoint:
 nodeRegistration:
   criSocket: unix:///var/run/containerd/containerd.sock
   imagePullPolicy: IfNotPresent
-  name: master
+  name: kubemaster
   taints: null
   KubeletExtraArgs:
     node-ip: 192.168.99.20
