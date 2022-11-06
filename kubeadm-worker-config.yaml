@@ -3,7 +3,7 @@ kind: JoinConfiguration
 nodeRegistration:
   criSocket: unix:///var/run/containerd/containerd.sock
   imagePullPolicy: IfNotPresent
-  name: ${kWorkerName}
+  name: kworker1
   taints: null
   kubeletExtraArgs:
     node-ip: 192.168.99.21
